@@ -1,1 +1,1 @@
-Michalis chat system
+Michali's chat system
