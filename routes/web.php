@@ -17,3 +17,9 @@ Route::get('/about', 'PagesController@about')->name('about');
 /* Route::get('/about', function () {
     return view('pages.about');
 }); */
+
+Route::resource('posts', 'PostsController');
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index');
