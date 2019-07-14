@@ -1,1 +1,1 @@
-Michali's chat system
+This is a simple Laravel CRUD application
